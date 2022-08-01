@@ -1,0 +1,30 @@
+.container {
+  width: 95%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f2f2f280;
+  box-shadow: 3px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  padding: 25px;
+  color: var(--branco);
+  margin-bottom: 15px;
+}
+.container > .name {
+  width: 60%;
+  /* background-color: aliceblue; */
+}
+.container > .preco {
+  width: 8%;
+  /* background-color: aliceblue; */
+}
+.container > .categoria {
+  width: 10%;
+  /* background-color: aliceblue; */
+}
+.text {
+  width: 100%;
+  background-color: var(--cinza);
+  padding: 5px;
+}
